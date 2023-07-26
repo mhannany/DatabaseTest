@@ -28,7 +28,7 @@ const studentSchema = new mongoose.Schema({
 });
 
 // Create a model based on the schema
-const Student = mongoose.model("Student", studentSchema, "examRecords");
+const Student = mongoose.model("Student", studentSchema, "examrecords");
 
 async function createNewStudent() {
   try {
