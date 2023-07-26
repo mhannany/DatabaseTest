@@ -12,7 +12,7 @@ const database = (module.exports = () => {
 
   try {
     mongoose.connect(
-      "mongodb+srv://mhannany:LabTest2023@cluster0.25bsjzc.mongodb.net/Exams23002"
+      "mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exams23002"
     );
     console.log("Data connected succesfully");
   } catch (error) {
