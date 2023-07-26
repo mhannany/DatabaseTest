@@ -47,9 +47,6 @@ async function createNewStudent() {
   }
 }
 
-app.listen(3000);
-console.log("App running http://localhost:3000");
-
 app.get("/", (req, res, next) => {
   res.json({
     name: "Mirna Garcia",
